@@ -264,10 +264,10 @@ class MideaACClimate(MideaClimate):
             HVACMode.FAN_ONLY,
         ]
         self._fan_speeds: dict[str, int] = {
-            FAN_SILENT: 20,
-            FAN_LOW: 40,
-            FAN_MEDIUM: 60,
-            FAN_HIGH: 80,
+            FAN_SILENT: 1,
+            FAN_LOW: 25,
+            FAN_MEDIUM: 50,
+            FAN_HIGH: 75,
             FAN_FULL_SPEED: 100,
             FAN_AUTO: 102,
         }
